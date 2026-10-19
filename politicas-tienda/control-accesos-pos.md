@@ -31,9 +31,9 @@ Tras auditorías observacionales en los puntos de venta, se han detectado los si
 1. **Política de Contraseñas:** Ninguna contraseña del POS o tablet podrá contener datos públicos del local (como la dirección, el teléfono o el código postal).
 2. **Acceso Rápido en Barra:** Para no ralentizar la operativa del servicio (CX), se sustituirá el tecleo de credenciales en barra por sistemas de autenticación rápidos e individuales, como códigos PIN personales e intransferibles o llaveros/pulseras RFID/NFC vinculados al perfil único de cada trabajador.
 
-### 4.3. Política de Pantallas Limpias y Bloqueo Lógico (Alineado con ISO/IEC 27002 Control 7.7)
-1. **Bloqueo Automático:** Todos los terminales POS y tablets del local comercial se configurarán con un bloqueo automático por inactividad tras un máximo de **120 segundos (2 minutos)** sin interacción.
-2. **Bloqueo Manual Obligatorio:** Es responsabilidad del barista realizar un bloqueo manual de la sesión antes de alejarse de la barra o del terminal de toma de comandas.
+### 4.3. Política de Pantallas Limpias y Bloqueo Operativo (Alineado con ISO/IEC 27002 Control 7.7)
+1.  **Bloqueo Manual Obligatorio por Ausencia:** Todo barista o encargado que deba abandonar físicamente el perímetro de la barra (ya sea para acudir al almacén, servicios, o periodos de descanso) está obligado a bloquear manualmente la sesión del terminal POS y de la tablet de comandas antes de retirarse.
+2.  **Bloqueo Automático de Respaldo:** Los terminales POS y tablets se configurarán con un temporizador de bloqueo automático por inactividad de **15 minutos**. Este control actúa exclusivamente como medida de seguridad secundaria ante olvidos del personal.
 
 ---
 
