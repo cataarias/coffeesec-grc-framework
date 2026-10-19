@@ -17,6 +17,7 @@ Tras auditorías observacionales en los puntos de venta, se han detectado los si
 *   **Autenticación Débil y Predecible:** El uso de contraseñas basadas en el código postal de la ubicación física expone el sistema a intrusiones por parte de terceros ajenos a la plantilla.
 *   **Exposición Visual de Credenciales:** La anotación o mantenimiento visible de contraseñas o PINs de acceso en las tablets infringe las directrices básicas de seguridad física.
 *   **Sesiones Expuestas de Forma Indefinida:** La ausencia de bloqueo automático por inactividad permite que terminales con sesiones activadas queden desatendidos ante clientes o personal no autorizado.
+*   **Exposición Masiva de Datos por Consultas Parciales (Fallo de Privacidad desde el Diseño):** El motor de búsqueda de la pestaña "Clientes" en el POS permite indexar y visualizar listados masivos de números telefónicos e identidades mediante la introducción de un único dígito, quebrando el control de accesos básico y exponiendo información confidencial de la base de datos de usuarios.
 
 ---
 
@@ -26,6 +27,8 @@ Tras auditorías observacionales en los puntos de venta, se han detectado los si
 1. **Prohibición de Cuentas Genéricas:** Queda terminantemente prohibido el uso de credenciales compartidas o cuentas genéricas de tienda para el registro de operaciones, cierres de caja o control de inventario.
 2. **Aprovisionamiento de Usuarios Temporales:** Todo barista contratado para realizar turnos extra o complementarios debe contar con un **usuario nominal temporal** creado de forma centralizada (ej. `extra.nombre.apellido@empresa.com`).
 3. **Ciclo de Vida de Cuentas Temporales:** Estas credenciales temporales caducarán y se desactivarán de forma automática en el sistema una vez finalizado el bloque de turnos asignado.
+4. **Restricción de Búsquedas en Base de Datos:** Se implementará un control lógico en el desarrollo del software del POS que prohíba de forma estricta las búsquedas parciales o comodín (wildcards) en el censo de clientes. El sistema solo devolverá un resultado si el operador introduce el número de teléfono completo o escanea de forma unívoca el código QR de la aplicación móvil.
+
 
 ### 4.2. Robustez de la Autenticación (Alineado con ISO/IEC 27002 Control 8.5)
 1. **Política de Contraseñas:** Ninguna contraseña del POS o tablet podrá contener datos públicos del local (como la dirección, el teléfono o el código postal).
