@@ -8,7 +8,7 @@
 ## 1. Objetivo
 Evaluar la conformidad legal de la infraestructura de cámaras de seguridad instalada en las tiendas de la organización frente a la normativa española de protección de datos. El fin es delimitar el uso legítimo de las imágenes, proteger los derechos digitales de los trabajadores y mitigar el riesgo de sanciones económicas por parte de la Agencia Española de Protección de Datos (AEPD).
 
-## 2. Marco Normativo Aplicable (Cita Literal)
+## 2. Marco Normativo Aplicable
 La evaluación se rige por la **Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD)**, cuyo **Artículo 89.1** (Primer párrafo) dicta de forma literal:
 
 > *"1. Los empleadores podrán tratar las imágenes obtenidas a través de sistemas de cámaras o videocámaras para el ejercicio de las funciones de control de los trabajadores o los empleados públicos previstas, respectivamente, en el artículo 20.3 del Estatuto de los Trabajadores y en la legislación de función pública, **siempre que estas funciones se ejerzan dentro de su marco legal y con los límites inherentes al mismo**. Los empleadores habrán de **informar con carácter previo**, y de forma expresa, clara y concisa, a los trabajadores o los empleados públicos y, en su caso, a sus representantes, acerca de esta medida."*
