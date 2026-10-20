@@ -16,7 +16,7 @@ La evaluación se rige por la **Ley Orgánica 3/2018, de 5 de diciembre, de Prot
 ---
 
 ## 3. Diagnóstico de la Situación Actual y Hallazgos de Auditoría
-Tras analizar la operativa y la gestión de la infraestructura en local, se constatan los siguientes hallazgos de incumplimiento normativo (Gaps):
+Tras analizar la operativa y la gestión de la infraestructura en los locales, se constatan los siguientes hallazgos de incumplimiento normativo (Gaps):
 *   **Desviación de la Finalidad Declarada:** Los empleados firmaron un documento informativo donde se especificaba que las cámaras se instalaban con fines de seguridad física (prevención de robos y vandalismo). Sin embargo, la dirección central utiliza de forma efectiva las imágenes para monitorizar el rendimiento, el uso del teléfono móvil o los periodos de descanso en la barra del personal base.
 *   **Vulneración del Principio de Proporcionalidad:** La jurisprudencia laboral de la AEPD determina que la vigilancia continua y asfixiante de tareas cotidianas (como estar sentado o mirar el dispositivo personal) no es una medida idónea ni equilibrada para el control productivo, vulnerando el derecho a la intimidad del empleado en su puesto de trabajo.
 *   **Riesgo de Captación de Audio No Autorizada:** El uso de las cámaras para monitorizar conversaciones verbales de la plantilla ("lo que ven y oyen") infringe de forma crítica la normativa de protección de datos, al estar la grabación de audio restringida por ley exclusivamente a situaciones de riesgo acreditado para la seguridad.
